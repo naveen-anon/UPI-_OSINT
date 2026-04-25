@@ -24,7 +24,7 @@ Follow these steps to set up the project locally:
 > - git clone https://github.com/naveen-anon/UPI-_OSINT.git
 > - cd UPI-_OSINT
 > - pip install -r requirements.txt
-> - python main.py
+> - python3 upi_osint_pro.py
 
 
 ## 🧑🏻‍💻 developer: naveen_anon 🧑🏻‍💻
