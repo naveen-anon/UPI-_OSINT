@@ -69,4 +69,15 @@ Warnings:
 • suspicious numeric pattern
 • impersonation style detected
 ``
+## 🚀 Installation
+
+### 📱 Termux (Android)
+
+```bash
+pkg update && pkg upgrade -y
+pkg install git python -y
+git clone https://github.com/naveen-anon/UPI-_OSINT.git
+cd UPI-_OSINT
+python upi_osint_pro.py
+```
 
