@@ -1,45 +1,72 @@
-# UPI_OSINT
+# 🔍 UPI Real Detector Pro v3
 
-A simple open-source project for UPI OSINT (Open Source INTelligence) exploration and analysis.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python">
+  <img src="https://img.shields.io/badge/Platform-Termux%20%7C%20Linux-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Version-v3-red?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge">
+</p>
 
-## 🚀 Project Overview
+<p align="center">
+  <b>Advanced UPI ID Trust Analyzer & Fraud Detection Tool</b><br>
+  Built for awareness, verification & scam prevention.
+</p>
 
-This repository contains tools/scripts related to UPI (Unified Payments Interface) OSINT — used to explore, gather, and analyze public information related to UPI IDs securely and ethically.
+---
 
-> ⚠️ **Important:** Always respect privacy and legal boundaries. Use responsibly.
+## 📌 About
 
-## 🧠 Features
+**UPI Real Detector Pro v3** is a smart Python CLI tool that analyzes UPI IDs using:
 
-- 📌 Sample code and scripts for UPI data exploration
-- 📊 Analysis helpers
-- 🛠 Simple structure for building OSINT tools around UPI data
-- 📚 Documentation and guidance (coming soon!)
+- Scam pattern detection  
+- Trust scoring  
+- Fake support ID alerts  
+- Brand impersonation checks  
+- Name mismatch analysis  
 
-## 🛠️ Installation
+This helps detect suspicious UPI IDs **before sending money**.
 
-Follow these steps to set up the project locally:
+---
 
-### 1️⃣ Clone the Repository
+## ⚡ Features
 
-> - git clone https://github.com/naveen-anon/UPI-_OSINT.git
-> - cd UPI-_OSINT
-> - pip install -r requirements.txt
-> - python3 upi_osint_pro.py
+- ✅ UPI Format Validation  
+- ✅ Known Bank Handle Detection  
+- ✅ Suspicious Keyword Scanner  
+- ✅ Cashback / Refund / Support Fraud Alerts  
+- ✅ Brand Impersonation Detection  
+- ✅ Name Match Engine  
+- ✅ Risk Score (0–100)  
+- ✅ Fraud Verdict  
+- ✅ JSON Export  
+- ✅ Premium CLI UI  
+- ✅ Termux / Linux Supported
 
+---
 
-## 🧑🏻‍💻 developer: naveen_anon 🧑🏻‍💻
+## 🧠 Example Detection
 
-## ⚠️ Disclaimer
+```text
+refundhelp123@oksbi
+paytmsupport@upi
+cashbackwinner999@ybl
+googlepayverify@okaxis
+```
+## 📷 Output Example
 
-This project is intended **only for educational and research purposes**.
+╔══════════════════════════════╗
+║   UPI REAL DETECTOR PRO v3  ║
+╚══════════════════════════════╝
+``
+UPI ID      : cashback999@oksbi
+Provider    : SBI
+Score       : 28
+Risk        : CRITICAL
+Verdict     : VERY LIKELY FRAUD
 
-The author is **not responsible** for any misuse of this tool or any damage caused by its use.  
-Users are solely responsible for ensuring that their actions comply with **local laws, rules, and regulations**.
+Warnings:
+• cashback keyword found
+• suspicious numeric pattern
+• impersonation style detected
+``
 
-This project must **not** be used for:
-- Illegal activities
-- Harassment or stalking
-- Invasion of privacy
-- Any form of unethical or malicious behavior
-
-By using this project, you agree that you are using it **at your own risk** and that the author will not be held liable for any consequences arising from its use.
